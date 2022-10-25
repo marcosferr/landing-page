@@ -1,0 +1,45 @@
+.header, #section-a, .footer{
+    background-color: #1F2937;
+}
+#section-c{
+    background-color: #e5e7eb;
+}
+#section-d{
+    background-color: #3882f6;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+.footer{
+    align-self: flex-end;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+}
+#section-a{
+    display: flex;
+    justify-content: space-between;
+}
+#section-b{
+    display: flex;
+    flex-direction: column;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.img-bg{
+    height: 300px;
+    width: 300px;
+     border: 1px solid black;
+}
